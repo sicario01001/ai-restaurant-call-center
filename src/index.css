@@ -1,0 +1,234 @@
+@import "tailwindcss";
+
+/* ─────────────────────────────
+   Salvatoré-style demo branding
+   (plain CSS so it always works)
+   ───────────────────────────── */
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    sans-serif;
+  background: #fff1f2; /* light red / rose */
+  color: #111827;
+}
+
+/* Header */
+
+.salvatore-header {
+  background: #b91c1c; /* red-700 style */
+  color: #ffffff;
+  border-bottom: 1px solid #7f1d1d;
+  box-shadow: 0 4px 10px rgba(220, 38, 38, 0.15);
+}
+
+.salvatore-header-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 16px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+@media (min-width: 768px) {
+  .salvatore-header-inner {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+/* Logo + title */
+
+.salvatore-logo-wrap {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.salvatore-logo-circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 9999px;
+  background: radial-gradient(circle at 30% 30%, #fecaca, #b91c1c);
+  border: 2px solid #fee2e2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+  font-size: 22px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  box-shadow: 0 4px 10px rgba(15, 23, 42, 0.25);
+}
+
+.salvatore-logo-circle span {
+  transform: translateY(-1px);
+}
+
+.salvatore-title {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.salvatore-subtitle {
+  font-size: 11px;
+  color: #fee2e2;
+}
+
+/* Header chips */
+
+.salvatore-chip-row {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 11px;
+}
+
+.salvatore-chip {
+  display: inline-flex;
+  align-items: center;
+  padding: 3px 8px;
+  border-radius: 9999px;
+  border: 1px solid rgba(254, 226, 226, 0.7);
+  background: rgba(255, 255, 255, 0.08);
+  color: #fee2e2;
+}
+
+.salvatore-chip-strong {
+  background: #f97373;
+  border-color: #fecaca;
+  color: #7f1d1d;
+}
+
+/* Layout */
+
+.salvatore-main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 24px 16px 32px;
+}
+
+/* Nav pills */
+
+.salvatore-nav {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  padding: 4px;
+  border-radius: 9999px;
+  border: 1px solid #fecaca;
+  background: #ffffff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+}
+
+.salvatore-nav-btn {
+  border-radius: 9999px;
+  padding: 6px 12px;
+  font-size: 12px;
+  border: 1px solid transparent;
+  background: #ffffff;
+  color: #7f1d1d;
+  cursor: pointer;
+}
+
+.salvatore-nav-btn:hover {
+  background: #fee2e2;
+}
+
+.salvatore-nav-btn-active {
+  background: #b91c1c;
+  color: #ffffff;
+  border-color: #b91c1c;
+  box-shadow: 0 4px 10px rgba(220, 38, 38, 0.15);
+}
+
+/* Main card */
+
+.salvatore-card {
+  margin-top: 20px;
+  background: #ffffff;
+  border-radius: 18px;
+  border: 1px solid #fee2e2;
+  box-shadow: 0 4px 12px rgba(15, 23, 42, 0.06);
+  padding: 24px;
+}
+
+/* Admin placeholder text */
+
+.salvatore-section-title {
+  margin: 0 0 8px 0;
+  padding-bottom: 4px;
+  border-bottom: 1px solid #fecaca;
+  font-size: 16px;
+  font-weight: 600;
+  color: #7f1d1d;
+}
+
+.salvatore-muted {
+  font-size: 13px;
+  color: #4b5563;
+}
+
+.salvatore-list {
+  margin: 12px 0;
+  padding-left: 18px;
+  font-size: 13px;
+  color: #374151;
+}
+
+.salvatore-list li::marker {
+  color: #dc2626;
+}
+
+.salvatore-panel-cream {
+  margin-top: 12px;
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 1px dashed #fecaca;
+  background: #fff7ed;
+  font-size: 12px;
+  color: #7c2d12;
+}
+
+/* Promo bar */
+
+.salvatore-promo-bar {
+  margin-top: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+  font-size: 12px;
+}
+
+.salvatore-promo-label {
+  font-weight: 600;
+  color: #7f1d1d;
+}
+
+.salvatore-promo-pill {
+  padding: 5px 10px;
+  border-radius: 9999px;
+  border: 1px solid #fecaca;
+  background: #fee2e2;
+  color: #7c2d12;
+  font-weight: 500;
+  cursor: default;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.salvatore-promo-pill-strong {
+  background: #b91c1c;
+  color: #ffffff;
+  border-color: #b91c1c;
+}
+
+.salvatore-promo-pill span {
+  font-size: 11px;
+  opacity: 0.9;
+}
+
